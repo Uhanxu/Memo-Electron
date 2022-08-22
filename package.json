@@ -1,0 +1,26 @@
+{
+  "name": "memo",
+  "version": "1.0.0",
+  "description": "memo demo",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "publish": "electron-forge publish",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uhanxu/Memo-Electron.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "lony",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron-forge/publisher-github": "^6.0.0-beta.65",
+    "electron": "^20.0.3",
+    "electron-builder": "^23.3.3"
+  }
+}
